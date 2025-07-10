@@ -1,0 +1,262 @@
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+     margin: 50px 140px 0px 140px;
+     max-width:1320px;
+}
+
+/* banner style */
+.banner{
+    background-image: url('/images/Banner\ Image.png');
+    opacity: 95%;
+    border-radius: 16px;
+    height:600px;
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content {
+    text-align: center;
+    color:#FFFFFF;
+    margin: 177px 340px;
+    
+ }
+
+.banner-content h4 {
+    font-size: 32px;
+}
+.banner-content h1{
+    font-size: 72px;
+}
+
+/* Offer Section Style */
+.offer-section{
+    margin: auto;
+    text-align: center;
+    height: 806px;
+    width: 802.9px;
+
+}
+
+.offer-section h1 {
+    color:#FF0000;
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.offer-section .offer-content p{
+    font-size: 24px;
+    color:#FF0000;
+    font-weight:500;
+    margin-bottom:0px;
+}
+
+.offer-section .offer-content h3{
+    font-size: 48px;
+    color: #070211;
+    font-weight: bold;
+    margin-top:16px;
+}
+
+/* Party Join section style */
+.party-join{
+    background-image: url("/images/Vectorrr.png");
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 94.17px;
+    margin-top:120px;
+    height: 602px;
+    border-radius: 16px;
+    margin-bottom:120px;
+
+}
+
+.party-join-content{
+    margin-left: 138px;
+}
+
+.party-join-content h1{
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin-bottom:0px;
+}
+
+.party-join-content p {
+    font-size: 16px;
+}
+
+.party-join-content button{
+    border: none;
+    background-color: rgba(0,0,0, 0);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 24px 48px;
+}
+.party-join-img{
+    margin-right:138px;
+    margin-top: 66.11px;
+    margin-bottom: 69.23px;
+    width:1320px;
+}
+
+/* party info style */
+.party-info{
+    width: 100%;
+    height: 482px;
+} 
+
+.party-info-content{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+.party-info-content span{
+    color:#FF0000;
+}
+
+.party-info-content button{
+     padding: 16px 32px;
+     border-radius: 8px;
+     background-color: #FF0000;
+     border:none;
+     color: white;
+     font-weight: 600;
+}
+/* part notice style */
+.party-notice{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    background-position: right bottom;
+    
+}
+
+.party-notice-left{
+    width: 393px;
+    height: 255px;
+    margin-right: 120px;
+}
+
+.party-notice-left .p1{
+    color:#FF0000;
+}
+.party-notice-middle{
+    width: 463px;
+    height: 463px;
+    
+}
+.party-notice-middle img{
+    border: 15px solid #FF0000; /* Border color and thickness */
+    border-radius: 50%; 
+    padding: 49.8px; /* Makes it a perfect circle */
+    
+}
+
+.party-notice-right{
+    
+    margin-left: 130px;
+
+}
+.party-notice-right h1{
+    color:#FF0000;
+    font-weight: bold;
+}
+/* Holiday style */
+.holiday{
+    width: 986.07px;
+
+}
+
+.holiday-content {
+    text-align: center;
+    margin-top: 129px;
+    width: 1068px;
+    height: 260px;
+    line-height: 16px;
+}
+.holiday-content1 p{
+    font-size: 24px
+}
+.holiday-content1 h1{
+    font-size: 72px;
+
+}
+.holiday-content1 h1 span{
+    color:#FF0000;
+}
+
+.holiday-content2{
+    margin: 0px 120px;
+    text-align: center;
+}
+.holiday-img{
+    height: 800px;
+    width: 1320px;
+    background-image: url('/images/Group\ 44.png'), url("/images/Group\ 75.png"), url('/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: right center, left bottom, bottom;
+}
+
+/* portfolio style */
+
+.portfolio{
+    margin-top: 129px;
+}
+.title h3{
+    color:#FF0000;
+  }
+.title h2{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-container{
+    
+    border-radius: 20px;
+  
+    padding: 4px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.card-img{
+    border: 0px solid black;
+    margin: 2px;
+}
+
+/* subscription style */
+
+.subscription{
+    text-align: center;
+
+}
+
+.subscription-details .subscription-content h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subscription-details .subscription-content p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.subscription .input-btn[type="email"]{
+    padding: 30px;
+}
